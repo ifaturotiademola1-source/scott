@@ -223,3 +223,112 @@ footer {
   .stats { gap: 30px; }
   .container { margin: 45px auto; }
 }
+/* ===== COOL UPGRADES ===== */
+
+/* Animated gradient hero background */
+.hero {
+  background: linear-gradient(-45deg, #0f172a, #1e3a8a, #1e293b, #0f172a);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+  border-radius: 0 0 40px 40px;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Fade-and-rise entrance for hero content */
+.hero h1, .hero p, .hero .btn, .hero .btn-outline {
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero h1 { animation-delay: 0.1s; }
+.hero p { animation-delay: 0.3s; }
+.hero .btn { animation-delay: 0.5s; }
+.hero .btn-outline { animation-delay: 0.6s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Glowing gradient buttons */
+.btn {
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  box-shadow: 0 0 0px rgba(96, 165, 250, 0);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  transition: border-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+.btn-outline:hover {
+  border-color: #60a5fa;
+  color: #60a5fa;
+  transform: translateY(-2px);
+}
+
+/* Skill pills float + glow on hover */
+.skill-pill {
+  transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+}
+
+.skill-pill:hover {
+  transform: translateY(-4px);
+  background: #2563eb;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+}
+
+/* Project cards: deeper hover lift + glow */
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.25);
+}
+
+/* Stats pop-in feel */
+.stats h3 {
+  transition: transform 0.2s;
+}
+
+.stats h3:hover {
+  transform: scale(1.1);
+}
+
+/* Smooth scrolling for nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Nav underline hover effect */
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #60a5fa;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
