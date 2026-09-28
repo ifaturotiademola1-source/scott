@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: gray
+  background: black
   color: gray
   line-height: 1.6;
 }
 
 /* NAVBAR */
 nav {
-  background: gray
+  background: black
   padding: 18px 8%;
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background: gray
+  background: black
   color: gray
   padding: 12px 28px;
   border-radius: 8px;
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: gray
+  background: black
 }
 
 .btn-outline {
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .skill-pill {
-  background: gray
+  background: black
   padding: 10px 18px;
   border-radius: 30px;
   font-size: 14px;
@@ -153,7 +153,7 @@ nav a:hover {
 }
 
 .project-card {
-  background: gray
+  background: black
   border-radius: 14px;
   overflow: hidden;
   transition: transform 0.2s;
@@ -185,7 +185,7 @@ nav a:hover {
 }
 
 .tags span {
-  background: gray
+  background: black
   color: gray
   font-size: 12px;
   padding: 4px 10px;
@@ -196,7 +196,7 @@ nav a:hover {
 /* CONTACT */
 .contact-box {
   text-align: center;
-  background: gray
+  background: black
   padding: 50px;
   border-radius: 16px;
 }
@@ -209,7 +209,7 @@ nav a:hover {
 
 /* FOOTER */
 footer {
-  background: gray
+  background: black
   color: gray
   text-align: center;
   padding: 30px;
