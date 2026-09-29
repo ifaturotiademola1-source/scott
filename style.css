@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: black
-  color: black
+  background: black;
+  color: black;
   line-height: 1.6;
 }
 
 /* NAVBAR */
 nav {
-  background: black
+  background: black;
   padding: 18px 8%;
   display: flex;
   justify-content: space-between;
@@ -24,20 +24,20 @@ nav {
 }
 
 .logo {
-  color: black
+  color: black;
   font-size: 22px;
   font-weight: bold;
 }
 
 nav a {
-  color: black
+  color: black;
   text-decoration: none;
   margin-left: 25px;
   font-size: 15px;
 }
 
 nav a:hover {
-  color: gray
+  color: gray;
 }
 
 /* HERO */
@@ -49,7 +49,7 @@ nav a:hover {
 .hero h1 {
   font-size: 42px;
   margin-bottom: 15px;
-  color: gray
+  color: gray;
 }
 
 .hero span {
@@ -58,15 +58,16 @@ nav a:hover {
 
 .hero p {
   font-size: 18px;
-  color: gray
+  color: gray;
   max-width: 600px;
   margin: 0 auto 30px;
 }
 
 .btn {
   display: inline-block;
-  background: black
-  color: gray
+  background: black;
+
+  color: gray;
   padding: 12px 28px;
   border-radius: 8px;
   text-decoration: none;
@@ -75,13 +76,13 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: black
+  background: black;
 }
 
 .btn-outline {
   display: inline-block;
-  border: 1px solid gray
-  color: gray
+  border: 1px solid gray;
+  color: gray;
   padding: 12px 28px;
   border-radius: 8px;
   text-decoration: none;
@@ -98,11 +99,11 @@ nav a:hover {
 }
 
 .skill-pill {
-  background: black
+  background: black;
   padding: 10px 18px;
   border-radius: 30px;
   font-size: 14px;
-  color: #cbd5e1;
+  color: gray;
 }
 
 /* SECTION CONTAINER */
@@ -115,13 +116,13 @@ nav a:hover {
 .container > h2 {
   text-align: center;
   font-size: 30px;
-  color: gray
+  color: gray;
   margin-bottom: 10px;
 }
 
 .container > p.section-sub {
   text-align: center;
-  color: gray
+  color: gray;
   margin-bottom: 40px;
 }
 
@@ -137,11 +138,11 @@ nav a:hover {
 
 .stats h3 {
   font-size: 34px;
-  color: gray
+  color: gray;
 }
 
 .stats p {
-  color: gray
+  color: gray;
   font-size: 14px;
 }
 
@@ -153,7 +154,7 @@ nav a:hover {
 }
 
 .project-card {
-  background: black
+  background: black;
   border-radius: 14px;
   overflow: hidden;
   transition: transform 0.2s;
@@ -174,19 +175,19 @@ nav a:hover {
 }
 
 .project-card h3 {
-  color: gray
+  color: gray;
   margin-bottom: 8px;
 }
 
 .project-card p {
-  color: gray
+  color: gray;
   font-size: 14px;
   margin-bottom: 12px;
 }
 
 .tags span {
-  background: black
-  color: gray
+  background: black;
+  color: gray;
   font-size: 12px;
   padding: 4px 10px;
   border-radius: 20px;
@@ -196,21 +197,21 @@ nav a:hover {
 /* CONTACT */
 .contact-box {
   text-align: center;
-  background: black
+  background: black;
   padding: 50px;
   border-radius: 16px;
 }
 
 .contact-box a {
-  color: black
+  color: black;
   text-decoration: none;
   font-size: 18px;
 }
 
 /* FOOTER */
 footer {
-  background: black
-  color: black
+  background: black;
+  color: black;
   text-align: center;
   padding: 30px;
   margin-top: 70px;
@@ -272,8 +273,8 @@ footer {
 }
 
 .btn-outline:hover {
-  border-color: gray
-  color: gray
+  border-color: gray;
+  color: gray;
   transform: translateY(-2px);
 }
 
@@ -284,8 +285,8 @@ footer {
 
 .skill-pill:hover {
   transform: translateY(-4px);
-  background: black
-  color: black
+  background: black;
+  color: black;
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
 }
 
@@ -325,7 +326,7 @@ nav a::after {
   bottom: -4px;
   width: 0;
   height: 2px;
-  background: black
+  background: black;
   transition: width 0.3s;
 }
 
