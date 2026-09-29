@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: gray;
-  color: gray;
+  color: blue;
   line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ nav {
 }
 
 nav a {
-  color: gray;
+  color: blue;
   text-decoration: none;
   margin-left: 25px;
   font-size: 15px;
@@ -67,7 +67,7 @@ nav a:hover {
   display: inline-block;
   background: gray;
 
-  color: gray;
+  color: blue;
   padding: 12px 28px;
   border-radius: 8px;
   text-decoration: none;
@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: black;
+  background: blue;
 }
 
 .btn-outline {
@@ -186,8 +186,8 @@ nav a:hover {
 }
 
 .tags span {
-  background: black;
-  color: gray;
+  background: blue;
+  color: blue;
   font-size: 12px;
   padding: 4px 10px;
   border-radius: 20px;
@@ -285,7 +285,7 @@ footer {
 
 .skill-pill:hover {
   transform: translateY(-4px);
-  background: gray;
+  background: blue;
   color: blue;
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
 }
